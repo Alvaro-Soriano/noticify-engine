@@ -1,0 +1,26 @@
+{
+  "name": "noticify-engine",
+  "version": "0.0.1",
+  "description": "engine for noticify",
+  "keywords": [
+    "noticify"
+  ],
+  "homepage": "https://github.com/Alvaro-Soriano/noticify-engine#readme",
+  "bugs": {
+    "url": "https://github.com/Alvaro-Soriano/noticify-engine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvaro-Soriano/noticify-engine.git"
+  },
+  "license": "ISC",
+  "author": "Alvaro Sor.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
