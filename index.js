@@ -66,9 +66,6 @@ async function getNotices({pType,pZone = '',PhasCoord = 'T',PstartDate = '',Pend
 
 	return response;
 }
-(async()=>{
-	console.log(await getBNMS());
-})()
 
 
 module.exports = {getNotices,getNotams,getHazNavPoly,getNavWarnings,getAdvisories,getBNMS};
