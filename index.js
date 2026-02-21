@@ -4,6 +4,7 @@ const {getHazNavPoly} = require('./sources/MSI');
 const {getNavWarnings} = require('./sources/NAVCEN');
 const {getAdvisories} = require('./sources/CADENAOIS');
 const {getBNMS} = require('./sources/BNM');
+const {densifyCoordsRing} = require('./utils/coord/coordUtils');
 
 
 async function getNotices({pType,pZone = '',PhasCoord = 'T',PstartDate = '',PendDate ='',PstatusN='T',PfreeText=''} = {}){
@@ -68,5 +69,5 @@ async function getNotices({pType,pZone = '',PhasCoord = 'T',PstartDate = '',Pend
 }
 
 
-module.exports = {getNotices,getNotams,getHazNavPoly,getNavWarnings,getAdvisories,getBNMS};
+module.exports = {getNotices,getNotams,getHazNavPoly,getNavWarnings,getAdvisories,getBNMS,densifyCoordsRing};
 
