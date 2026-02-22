@@ -16,3 +16,4 @@ De conformidad con lo dispuesto en la Directiva (UE) 2019/790 del Parlamento Eur
 El presente proyecto tiene carácter meramente informativo y demostrativo, desarrollado como actividad de carácter personal y sin finalidad lucrativa. La información mostrada puede contener errores de interpretación, inexactitudes o no reflejar fielmente el contenido oficial de los avisos publicados por las autoridades competentes.
 
 En cualquier caso, se recomienda acudir siempre a las fuentes oficiales para verificar la exactitud y vigencia de la información.
+## Utilización
