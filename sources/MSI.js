@@ -1,7 +1,7 @@
 const {unifyDateFormat,findDates} = require('../utils/date/dateUtils');
 const navcen_url_haz = "https://navcen.uscg.gov/sites/default/files/msi/hazNavPoly_1.geojson";
 const navcen_url_safezone = "https://navcen.uscg.gov/sites/default/files/msi/safeZonePoly_1.geojson";
-
+const navcen_url_spaceops ="https://www.navcen.uscg.gov/sites/default/files/msi/spaceOpsPoly_1.geojson";
 
 
 async function getHaz(url){
@@ -34,6 +34,7 @@ async function getHaz(url){
 async function getHazNavPoly(){
 	const hazzards = await getHaz(navcen_url_haz);
 	const safezone = await getHaz(navcen_url_safezone);
-	return [...hazzards,...safezone];
+	const spaceopos = await getHaz(navcen_url_spaceops);
+	return [...hazzards,...safezone,...spaceopos];
 }
 module.exports = {getHazNavPoly};
